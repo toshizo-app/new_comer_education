@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SES新人エンジニア向け、明日から使えるTips集。報告テンプレ・質問フレーズ・困ったときの処方箋。">
+<meta property="og:title" content="新人エンジニア Tips集 | 新人エンジニア心得帖">
+<meta property="og:description" content="明日から使える、シーン別の処方箋。">
+<meta property="og:type" content="website">
+<title>Tips集 💼 | 新人エンジニア心得帖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/tips.css">
+</head>
+<body>
+
+<nav class="page-nav">
+  <div class="container page-nav-inner">
+    <a href="index.html" class="page-nav-back">← 心得帖トップへ</a>
+    <span class="page-nav-current">💼 Tips集</span>
+  </div>
+</nav>
+
+<header class="tips-hero">
+  <div class="container">
+    <p class="tips-kicker">明日から使える、現場の処方箋</p>
+    <h1 class="tips-title">Tips集 💼</h1>
+    <p class="tips-sub">
+      「こういうとき、どうすれば？」<br>
+      困ったその瞬間に、開いてほしいページ。
+    </p>
+  </div>
+</header>
+
+<nav class="tips-toc">
+  <div class="container">
+    <ul>
+      <li><a href="#templates">📝 報告テンプレ集</a></li>
+      <li><a href="#phrases">💬 便利フレーズ</a></li>
+      <li><a href="#troubles">🚨 困ったときの処方箋</a></li>
+      <li><a href="#meetings">🗣 ミーティング小ワザ</a></li>
+      <li><a href="#tools">🛠 おすすめツール</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- 報告テンプレ集 -->
+<section id="templates" class="tips-section">
+  <div class="container">
+    <h2 class="section-title">📝 報告テンプレ集</h2>
+    <p class="section-lead">コピペで使える、シーン別のひな形。慣れたら自分の言葉に変えていこう。</p>
+
+    <div class="tip-card">
+      <h3>朝の始業報告（Slack / Teams）</h3>
+      <pre class="snippet">おはようございます。本日の予定です。
+
+▼今日やること
+・〇〇画面の××実装（昨日の続き）
+・△△レビュー対応
+
+▼相談したいこと
+・〇〇の仕様で迷っている点を午前中にご相談させてください
+
+よろしくお願いします。</pre>
+      <p class="tip-note">💡 「相談したいこと」を入れるだけで、先輩は予定を空けてくれる。</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>日報（夕方の締め）</h3>
+      <pre class="snippet">お疲れさまです。本日の報告です。
+
+▼完了したこと
+・〇〇機能の実装（PR #123 提出済み）
+
+▼進行中
+・△△の調査（進捗60%、明日完了予定）
+
+▼困っていること／要相談
+・××のエラーで詰まっています。明日朝、共有させてください
+
+▼明日の予定
+・調査続きと△△の実装
+
+以上です。</pre>
+      <p class="tip-note">💡 結論 → 進行中 → 困りごと → 明日 の順。1分で書ける構造に。</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>遅刻・体調不良の連絡</h3>
+      <pre class="snippet">お疲れさまです。〇〇です。
+本日、体調不良のため△時頃まで遅れての出社/リモートとさせてください。
+ご迷惑をおかけし申し訳ありません。
+
+▼影響
+・本日予定のXXは△時以降に着手します
+・緊急の案件があればSlackでご連絡ください
+
+よろしくお願いいたします。</pre>
+      <p class="tip-note">💡 謝罪より先に「いつから動けるか」「影響範囲」。相手が知りたいのはそこ。</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>エスカレーション（やばい！と思ったとき）</h3>
+      <pre class="snippet">お忙しいところすみません、至急ご相談です。
+
+▼何が起きているか
+・〇〇環境で△△エラーが発生しています
+
+▼影響範囲（わかる範囲で）
+・××機能が使えない状態の可能性
+
+▼今やっていること
+・ログを確認中、原因切り分け中
+
+▼判断いただきたいこと
+・お客様への一報をこのタイミングで入れるべきか
+
+5分後に状況更新します。</pre>
+      <p class="tip-note">💡 「至急」と明示 + 判断してほしいことを明確に。原因究明より先に報告。</p>
+    </div>
+
+    <div class="tip-card">
+      <h3>有給・休暇申請</h3>
+      <pre class="snippet">お疲れさまです。
+△月△日（〇）、有給休暇をいただきたく申請いたします。
+
+▼当日の業務影響
+・進行中の××は△日までに区切りをつけます
+・緊急時の連絡先：△△さん（事前に共有予定）
+
+ご確認のほどよろしくお願いいたします。</pre>
+      <p class="tip-note">💡 申請は「権利」だが、影響を整理して伝えると「配慮できる人」になる。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 便利フレーズ -->
+<section id="phrases" class="tips-section alt">
+  <div class="container">
+    <h2 class="section-title">💬 便利フレーズ集</h2>
+    <p class="section-lead">言いたいけど、どう言えばいいかわからない。そんなときの一言。</p>
+
+    <div class="phrase-grid">
+      <div class="phrase-card">
+        <p class="phrase-scene">🙋 認識を確認したいとき</p>
+        <p class="phrase-text">「念のため確認させてください。〇〇という理解で合っていますでしょうか？」</p>
+      </div>
+      <div class="phrase-card">
+        <p class="phrase-scene">🤔 反対意見を伝えたいとき</p>
+        <p class="phrase-text">「ご提案ありがとうございます。一点気になる点があるのですが、××のケースだとどうなりますでしょうか？」</p>
+      </div>
+      <div class="phrase-card">
+        <p class="phrase-scene">⏳ 時間がほしいとき</p>
+        <p class="phrase-text">「すぐにお答えできず申し訳ありません。10分ほどお時間いただいて、整理してからお返事してもよろしいでしょうか？」</p>
+      </div>
+      <div class="phrase-card">
+        <p class="phrase-scene">❓ 質問の前置きに</p>
+        <p class="phrase-text">「初歩的な質問で恐縮ですが、〇〇について教えていただけますか？」</p>
+      </div>
+      <div class="phrase-card">
+        <p class="phrase-scene">🙏 助けてもらったあと</p>
+        <p class="phrase-text">「ありがとうございました。〇〇という流れで進めるとうまくいきました。とても勉強になりました」</p>
+      </div>
+      <div class="phrase-card">
+        <p class="phrase-scene">📅 タスクを引き受けるとき</p>
+        <p class="phrase-text">「承知しました。完了は△日の△時頃を見込んでいます。問題があれば早めに共有します」</p>
+      </div>
+      <div class="phrase-card">
+        <p class="phrase-scene">⛔ 無理な依頼を受けたとき</p>
+        <p class="phrase-text">「ご依頼ありがとうございます。現在〇〇を進めていて、両立が難しそうです。優先順位をご相談させてください」</p>
+      </div>
+      <div class="phrase-card">
+        <p class="phrase-scene">🔄 進捗を聞かれたとき</p>
+        <p class="phrase-text">「現在△%です。△時間後に完了見込みです。詰まっている点はないので、このまま進めます」</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 困ったときの処方箋 -->
+<section id="troubles" class="tips-section">
+  <div class="container">
+    <h2 class="section-title">🚨 困ったときの処方箋</h2>
+    <p class="section-lead">パニックになる前に、深呼吸してこれを開こう。</p>
+
+    <details class="trouble">
+      <summary>🔥 本番でやらかしてしまった</summary>
+      <ol>
+        <li><strong>深呼吸（30秒）</strong>。パニックのまま動くと二次被害を生む</li>
+        <li><strong>すぐ報告</strong>。「やらかしました、今影響確認しています」だけでいい</li>
+        <li><strong>事実だけ整理</strong>。何時に・何を・どうした。推測と事実を混ぜない</li>
+        <li><strong>影響範囲を確認</strong>。可能なら自分で、無理なら先輩と</li>
+        <li><strong>復旧</strong>。順序を先輩と相談してから動く（焦ると更に壊す）</li>
+        <li><strong>再発防止</strong>を一緒に考える。「自分を責める」より「仕組みを変える」</li>
+      </ol>
+    </details>
+
+    <details class="trouble">
+      <summary>📚 専門用語が飛び交って会議についていけない</summary>
+      <ol>
+        <li>会議中は <strong>わからない単語をメモだけ</strong> しておく</li>
+        <li>会議後すぐに先輩や同期に「あのとき出た〇〇って何ですか？」</li>
+        <li>同じ単語が3回出てきたら、 <strong>もう聞いていい合図</strong></li>
+        <li>調べてもわからないとき、Slackで <code>「初歩的ですみません、〇〇について教えてください」</code> でOK</li>
+        <li>用語集を自分で作る。1ヶ月後には宝物になる</li>
+      </ol>
+    </details>
+
+    <details class="trouble">
+      <summary>⏰ 期限に間に合いそうにない</summary>
+      <ol>
+        <li><strong>気づいた瞬間に報告</strong>。前日や当日に言うのが最悪</li>
+        <li>「△日かかりそうです。理由は××です」と <em>原因と見込み</em> をセットで</li>
+        <li>選択肢を3つ用意する: 「①期限延長 ②スコープ縮小 ③人を増やす」</li>
+        <li>判断は先輩・上司に委ねる。あなたは <em>情報提供係</em> でいい</li>
+      </ol>
+      <p class="trouble-note">💡 期限を守れないより、期限を守れない可能性を黙ってる方がはるかにマズい。</p>
+    </details>
+
+    <details class="trouble">
+      <summary>😡 お客様（or 先輩）が怒っている</summary>
+      <ol>
+        <li><strong>まず聞く</strong>。反論したくなっても、まず最後まで聞く</li>
+        <li><strong>事実を確認</strong>。「〇〇という認識で合っていますか？」</li>
+        <li><strong>謝るべきは謝る</strong>。ただし「自分のせいではない」ことまで謝らない</li>
+        <li><strong>「次にどうするか」を提案</strong>。怒っている人は対策を聞きたい</li>
+        <li><strong>一人で抱えない</strong>。報告して、先輩と一緒に対応する</li>
+      </ol>
+      <p class="trouble-note">💡 怒りの裏には「期待」がある。期待してくれている、と思って向き合おう。</p>
+    </details>
+
+    <details class="trouble">
+      <summary>😔 自分だけできていない気がする</summary>
+      <ol>
+        <li>同期と比べない。<strong>3ヶ月前の自分</strong>と比べる</li>
+        <li>できないことより、 <strong>できるようになったこと</strong>を毎日1つ書く</li>
+        <li>先輩に「何ができていれば及第点ですか？」と聞いてみる（基準が見えると楽になる）</li>
+        <li>誰でも最初は同じ。 <em>3年目の先輩も、3年前は今のあなただった</em></li>
+      </ol>
+    </details>
+
+    <details class="trouble">
+      <summary>💻 環境構築でハマって1日溶けた</summary>
+      <ol>
+        <li>15分ルール。15分詰まったら、誰かに聞く</li>
+        <li>聞くときは <strong>エラーメッセージのスクショ + やったこと</strong> をセットで</li>
+        <li>解決したら <strong>必ずメモ</strong>。次の新人があなたに感謝する</li>
+        <li>環境構築は新人の通過儀礼。落ち込まなくていい</li>
+      </ol>
+    </details>
+  </div>
+</section>
+
+<!-- ミーティング小ワザ -->
+<section id="meetings" class="tips-section alt">
+  <div class="container">
+    <h2 class="section-title">🗣 ミーティング小ワザ</h2>
+    <p class="section-lead">会議は、新人にとって最大の学習機会。受け身じゃもったいない。</p>
+
+    <div class="mini-tip">
+      <h3>📝 議事録は積極的に立候補</h3>
+      <p>「新人なので議事録やります」は最強のカード。<strong>話の流れと専門用語が一気に身につく</strong>うえに、先輩から「あいつ動けるな」と思われる。</p>
+    </div>
+
+    <div class="mini-tip">
+      <h3>🎤 発言は「質問」から始める</h3>
+      <p>意見が出せなくても、質問はできる。「ひとつ確認させてください」と切り出すだけで、参加している感が出る。<em>沈黙より、的を外した質問のほうがはるかにマシ</em>。</p>
+    </div>
+
+    <div class="mini-tip">
+      <h3>⏰ 5分前には準備完了</h3>
+      <p>オンライン会議は「カメラON、マイクOFF」で5分前にスタンバイ。先輩はそういう細かいところを見ている。</p>
+    </div>
+
+    <div class="mini-tip">
+      <h3>🎯 終わる前に「ToDoの確認」</h3>
+      <p>会議の終わりに「私の宿題は〇〇と△△ですね？」と確認する。<strong>認識ズレの90%はここで防げる</strong>。</p>
+    </div>
+
+    <div class="mini-tip">
+      <h3>📤 議事録は当日中に共有</h3>
+      <p>翌日になると記憶が薄れる。完璧じゃなくていい。<em>速さは正義</em>。後で訂正すれば良い。</p>
+    </div>
+  </div>
+</section>
+
+<!-- おすすめツール -->
+<section id="tools" class="tips-section">
+  <div class="container">
+    <h2 class="section-title">🛠 新人に贈るおすすめツール</h2>
+    <p class="section-lead">無料 or 安価で、最初の1年に確実に効くもの。</p>
+
+    <div class="tool-grid">
+      <div class="tool-card">
+        <p class="tool-cat">📓 メモ</p>
+        <h3>Obsidian / Notion</h3>
+        <p>毎日の学びを蓄積する場所。 <em>検索できる外部脳</em> を持つと人生が変わる。</p>
+      </div>
+      <div class="tool-card">
+        <p class="tool-cat">⌨️ ターミナル</p>
+        <h3>Warp / iTerm2</h3>
+        <p>最初に触るターミナルはこだわっていい。 <em>1日30回開くツール</em> だから。</p>
+      </div>
+      <div class="tool-card">
+        <p class="tool-cat">🧠 思考整理</p>
+        <h3>Markdownで書く習慣</h3>
+        <p>ツールより先に習慣。 <em>箇条書きで考える人</em> は会議でも強い。</p>
+      </div>
+      <div class="tool-card">
+        <p class="tool-cat">⏱ タイマー</p>
+        <h3>ポモドーロ（25分集中 + 5分休憩）</h3>
+        <p>集中力は鍛えるもの。「あと25分」と区切るだけで生産性が上がる。</p>
+      </div>
+      <div class="tool-card">
+        <p class="tool-cat">📚 読書</p>
+        <h3>「リーダブルコード」</h3>
+        <p>新人時代に1冊だけ読むなら、これ。 <em>コードは読まれるために書く</em> を学べる。</p>
+      </div>
+      <div class="tool-card">
+        <p class="tool-cat">📡 情報収集</p>
+        <h3>Zenn / Qiita / X</h3>
+        <p>毎日5分でいい。同じ職種の人がどんな悩みと向き合っているかを知る。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tips-cta">
+  <div class="container">
+    <h2>📖 心得帖の本編も読み返そう</h2>
+    <p>テクニックはあくまで道具。土台になる「心構え」を、何度でも確認しに行こう。</p>
+    <a href="index.html" class="cta-btn">← 心得帖の7章を読み返す</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">新人エンジニア心得帖</p>
+    <p class="footer-sub">この心得帖が、君のキャリアの最初の一歩を支えますように 🌱</p>
+    <p class="footer-meta">
+      <a href="index.html">心得帖</a> /
+      <a href="tips.html">Tips集</a> /
+      <a href="https://github.com/toshizo-app/new_comer_education/wiki">Wiki</a> /
+      <a href="https://github.com/toshizo-app/new_comer_education">GitHub</a>
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
