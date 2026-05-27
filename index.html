@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SESで働く新人エンジニアへ。技術より先に身につけたい、報告・相談・成長の心得。">
+<meta property="og:title" content="新人エンジニア心得帖">
+<meta property="og:description" content="技術より先に、これを覚えて。SES新人エンジニアのための7章。">
+<meta property="og:type" content="website">
+<title>新人エンジニア心得帖 🌱 | SESで伸びる人になるための7章</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-bg">
+    <span class="float-emoji" style="--x:10%;--y:20%;--d:0s">💡</span>
+    <span class="float-emoji" style="--x:85%;--y:30%;--d:1s">🌱</span>
+    <span class="float-emoji" style="--x:20%;--y:75%;--d:2s">📓</span>
+    <span class="float-emoji" style="--x:75%;--y:80%;--d:3s">☕</span>
+    <span class="float-emoji" style="--x:50%;--y:15%;--d:1.5s">✨</span>
+  </div>
+  <div class="hero-inner">
+    <p class="hero-kicker">SESで働く、あなたへ</p>
+    <h1 class="hero-title">新人エンジニア<br>心得帖 <span class="leaf">🌱</span></h1>
+    <p class="hero-sub">
+      技術より先に身につけたい、<br>
+      <em>報告・相談・成長</em>のための7章。
+    </p>
+    <a href="#chapters" class="hero-cta">読みはじめる →</a>
+    <p class="hero-time">⏱ 約15分で読めます</p>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="container">
+    <div class="speech-bubble">
+      <p>
+        はじめまして。<br>
+        この心得帖を開いてくれてありがとう。
+      </p>
+      <p>
+        ここに書いてあるのは、コードの書き方でも、フレームワークの使い方でもない。
+        <strong>「どうすれば信頼される新人になれるか」</strong>
+        という、もっと大事な話だ。
+      </p>
+      <p>
+        技術はあとからついてくる。でも、<em>人としての立ち振る舞い</em>は、
+        最初の1年でだいたい決まってしまう。
+      </p>
+      <p>
+        だから、技術書を開く前に、まずこれを読んでほしい。
+      </p>
+    </div>
+  </div>
+</section>
+
+<nav id="chapters" class="toc">
+  <div class="container">
+    <h2 class="toc-title">📖 目次</h2>
+    <ol class="toc-list">
+      <li><a href="#ch1"><span class="toc-num">01</span><span class="toc-text">「わかりません」と言える勇気 💪</span></a></li>
+      <li><a href="#ch2"><span class="toc-num">02</span><span class="toc-text">ホウレンソウは、愛だ 💌</span></a></li>
+      <li><a href="#ch3"><span class="toc-num">03</span><span class="toc-text">質問は最強のスキル 🎯</span></a></li>
+      <li><a href="#ch4"><span class="toc-num">04</span><span class="toc-text">SESエンジニアの作法 🤝</span></a></li>
+      <li><a href="#ch5"><span class="toc-num">05</span><span class="toc-text">失敗は、最高の教材 🌧️→🌈</span></a></li>
+      <li><a href="#ch6"><span class="toc-num">06</span><span class="toc-text">1年後に化ける人の習慣 ✨</span></a></li>
+      <li><a href="#ch7"><span class="toc-num">07</span><span class="toc-text">最後に、君へ 🕊️</span></a></li>
+    </ol>
+  </div>
+</nav>
+
+<!-- Chapter 1 -->
+<article id="ch1" class="chapter chapter-1">
+  <div class="container">
+    <div class="chapter-head">
+      <span class="chapter-num">Chapter 01</span>
+      <h2>「わかりません」と<br>言える勇気 💪</h2>
+      <p class="chapter-lead">最初の関門は、技術じゃない。プライドだ。</p>
+    </div>
+
+    <div class="chapter-body">
+      <p>
+        新人がやりがちな失敗No.1を教えよう。<br>
+        それは <strong>「わかったフリ」</strong> だ。
+      </p>
+
+      <p>
+        会議で先輩が専門用語を連発する。<br>
+        「ここはJWTで認証してCORSを許可してあるから、フロントからCookieは要らないんだよ」
+      </p>
+
+      <p>
+        7割わからない。でも「わかりません」と言うのが怖くて、つい頷いてしまう。<br>
+        ──これ、いちばんマズい。
+      </p>
+
+      <div class="callout callout-warn">
+        <div class="callout-icon">⚠️</div>
+        <div class="callout-body">
+          <p class="callout-title">わかったフリの代償は、未来の自分が払う</p>
+          <p>
+            あとで実装に詰まったとき、「あれ、これ聞いてたはずなのに」と先輩を困らせる。
+            最悪、先輩は思う。<strong>「あいつ、頷いてたよな……？」</strong>
+          </p>
+        </div>
+      </div>
+
+      <p>
+        正解はこう。
+      </p>
+
+      <blockquote class="quote">
+        「すみません、JWTのところまでは追えたんですが、<br>
+        CookieとCORSの関係が自分の中で繋がっていなくて、<br>
+        もう一度教えてもらえますか？」
+      </blockquote>
+
+      <p>
+        わからないことを、 <em>どこまでわかって、どこからわからないか</em> セットで伝える。
+        これだけで、先輩は「お、こいつ、ちゃんと考えてる」と思う。
+      </p>
+
+      <p>
+        新人の特権は「わからないと言えること」だ。<br>
+        この特権、3ヶ月で消える。今のうちに使い倒そう。
+      </p>
+
+      <div class="takeaway">
+        <p class="takeaway-label">🎁 この章のおみやげ</p>
+        <p>
+          わかったフリは、未来の自分への借金。<br>
+          「ここまでわかって、ここからわからない」とセットで聞こう。
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Chapter 2 -->
+<article id="ch2" class="chapter chapter-2">
+  <div class="container">
+    <div class="chapter-head">
+      <span class="chapter-num">Chapter 02</span>
+      <h2>ホウレンソウは、愛だ 💌</h2>
+      <p class="chapter-lead">報告・連絡・相談は、自分のためじゃない。相手のためにやる。</p>
+    </div>
+
+    <div class="chapter-body">
+      <p>
+        「ホウレンソウは大事」って、耳にタコができるくらい聞いただろう。<br>
+        でも、 <strong>なぜ</strong> 大事かを正しく理解している新人は少ない。
+      </p>
+
+      <p>
+        ホウレンソウは、上司や先輩を <em>安心させるための行為</em> だ。
+      </p>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-emoji">📣</div>
+          <h3>報告</h3>
+          <p>結果を伝える。<br>「終わりました」「ここまで進みました」</p>
+          <p class="card-tip">💡 結論 → 経過 → 所感の順で</p>
+        </div>
+        <div class="card">
+          <div class="card-emoji">📞</div>
+          <h3>連絡</h3>
+          <p>事実を共有する。<br>「お客様から〇〇の依頼が来ました」</p>
+          <p class="card-tip">💡 早すぎることはない</p>
+        </div>
+        <div class="card">
+          <div class="card-emoji">🤝</div>
+          <h3>相談</h3>
+          <p>判断を仰ぐ。<br>「AとB、どちらが良いでしょうか」</p>
+          <p class="card-tip">💡 自分の案を持って行く</p>
+        </div>
+      </div>
+
+      <h3 class="sub-head">⛔ 新人がやってしまう「ホウレンソウ事故」</h3>
+
+      <div class="incident">
+        <p class="incident-title">事故1：黙って一人で抱える</p>
+        <p>
+          「自分で解決しないと迷惑かな」と2日間悩む。<br>
+          → 先輩に話したら30秒で解決。失った2日間は二度と戻ってこない。
+        </p>
+      </div>
+
+      <div class="incident">
+        <p class="incident-title">事故2：「終わりました」だけ送る</p>
+        <p>
+          何が、どこまで、どう終わったのか伝わらない。<br>
+          → 先輩は確認に行かないといけない。お互いの時間が溶ける。
+        </p>
+      </div>
+
+      <div class="incident">
+        <p class="incident-title">事故3：悪い報告ほど遅らせる</p>
+        <p>
+          ミスを隠していたら、お客様にバレた。<br>
+          → 早く言えば「リカバリの話」、遅く言えば「信頼の話」になる。
+        </p>
+      </div>
+
+      <p>
+        覚えておいてほしい。<br>
+        <strong>悪い知らせほど、早く、正確に</strong>。<br>
+        これは新人の義務であり、同時に最大の救命具でもある。
+      </p>
+
+      <div class="takeaway">
+        <p class="takeaway-label">🎁 この章のおみやげ</p>
+        <p>
+          ホウレンソウは、相手を安心させるためにある。<br>
+          特に <em>悪い報告ほど、最速で</em>。
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Chapter 3 -->
+<article id="ch3" class="chapter chapter-3">
+  <div class="container">
+    <div class="chapter-head">
+      <span class="chapter-num">Chapter 03</span>
+      <h2>質問は最強のスキル 🎯</h2>
+      <p class="chapter-lead">「いい質問するな」と言われる人は、3年後に化ける。</p>
+    </div>
+
+    <div class="chapter-body">
+      <p>
+        質問にも、上手・下手がある。<br>
+        そして、上手な質問は <strong>後天的に身につけられる技術</strong> だ。
+      </p>
+
+      <h3 class="sub-head">⏱ まず守ってほしい「15分ルール」</h3>
+
+      <p>
+        ひとつの問題で <strong>15分</strong> 詰まったら、それ以上ひとりで抱えない。
+      </p>
+
+      <p>
+        新人の15分の悩みは、先輩の3分で解ける。<br>
+        その差を、自分の成長に投資しよう。
+      </p>
+
+      <div class="callout callout-info">
+        <div class="callout-icon">💭</div>
+        <div class="callout-body">
+          <p class="callout-title">「すぐ聞くと迷惑では？」と思う君へ</p>
+          <p>
+            違う。 <em>15分以上ハマってるのに聞かない方が迷惑</em> だ。
+            君が悩んでる時間は、プロジェクトの時間でもある。
+          </p>
+        </div>
+      </div>
+
+      <h3 class="sub-head">📝 質問の型：これに沿うだけで上達する</h3>
+
+      <div class="template">
+        <div class="template-row">
+          <div class="template-key">① やりたいこと</div>
+          <div class="template-val">「〇〇画面で△△を表示したい」</div>
+        </div>
+        <div class="template-row">
+          <div class="template-key">② やったこと</div>
+          <div class="template-val">「××を試して、コードはこうしました」</div>
+        </div>
+        <div class="template-row">
+          <div class="template-key">③ 起きていること</div>
+          <div class="template-val">「□□というエラーが出ます（スクショ添付）」</div>
+        </div>
+        <div class="template-row">
+          <div class="template-key">④ 仮説</div>
+          <div class="template-val">「たぶん〇〇が原因かと思っていますが…」</div>
+        </div>
+        <div class="template-row">
+          <div class="template-key">⑤ 何を聞きたいか</div>
+          <div class="template-val">「方向性が合っているか確認させてください」</div>
+        </div>
+      </div>
+
+      <p>
+        この5行を書くだけで、 <em>たいてい質問する前に自己解決する</em> 。<br>
+        いわゆる「アヒルのおもちゃ効果（Rubber Duck Debugging）」だ。
+      </p>
+
+      <p>
+        それでも解決しなかったら、その5行をそのまま先輩に投げる。<br>
+        先輩は <strong>「こいつは聞き方がうまい」</strong> と思う。
+      </p>
+
+      <div class="takeaway">
+        <p class="takeaway-label">🎁 この章のおみやげ</p>
+        <p>
+          15分ルール + 質問の5行テンプレ。<br>
+          これだけで、君は「聞き方がうまい新人」になれる。
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Chapter 4 -->
+<article id="ch4" class="chapter chapter-4">
+  <div class="container">
+    <div class="chapter-head">
+      <span class="chapter-num">Chapter 04</span>
+      <h2>SESエンジニアの作法 🤝</h2>
+      <p class="chapter-lead">2つの会社で生きる、ということ。</p>
+    </div>
+
+    <div class="chapter-body">
+      <p>
+        SESエンジニアには、ふたつの顔がある。
+      </p>
+
+      <div class="two-side">
+        <div class="two-side-item">
+          <div class="two-side-emoji">🏢</div>
+          <p class="two-side-title">自社</p>
+          <p>君を雇い、育て、評価する場所。</p>
+        </div>
+        <div class="two-side-vs">×</div>
+        <div class="two-side-item">
+          <div class="two-side-emoji">🏬</div>
+          <p class="two-side-title">客先</p>
+          <p>君が日々働き、価値を届ける場所。</p>
+        </div>
+      </div>
+
+      <p>
+        この両方に対して、 <strong>誠実であること</strong> 。それがSESの作法だ。
+      </p>
+
+      <h3 class="sub-head">🎯 客先での3つの心得</h3>
+
+      <div class="rule-list">
+        <div class="rule">
+          <span class="rule-num">1</span>
+          <div>
+            <p class="rule-title">「お客様」だが「同じチーム」</p>
+            <p>敬意は払う。でも遠慮しすぎて意見を言わないのは、価値を出していないのと同じ。
+            <em>遠慮ではなく、配慮を</em> 。</p>
+          </div>
+        </div>
+        <div class="rule">
+          <span class="rule-num">2</span>
+          <div>
+            <p class="rule-title">挨拶・身だしなみ・時間厳守</p>
+            <p>当たり前を、当たり前に。SESエンジニアは <strong>「最初の3日」で評価が決まる</strong> 。
+            技術より先に、社会人としての基礎を見られている。</p>
+          </div>
+        </div>
+        <div class="rule">
+          <span class="rule-num">3</span>
+          <div>
+            <p class="rule-title">客先のルールは、客先のルール</p>
+            <p>自社の常識を持ち込まない。資料のフォーマット、会議の進め方、Slackの絵文字ひとつまで、
+            「ここではこうする」を尊重する。</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-head">🏢 自社への報告を、絶対に忘れない</h3>
+
+      <p>
+        客先で忙しいと、つい自社への報告が後回しになる。<br>
+        でもここで差がつく。
+      </p>
+
+      <div class="callout callout-tip">
+        <div class="callout-icon">💡</div>
+        <div class="callout-body">
+          <p class="callout-title">週1の自社報告は、君の未来を守る</p>
+          <p>
+            自社の上司は、君が客先でどう働いているか見えない。
+            だから君が伝えないと、 <em>頑張りも、困りごとも、何も伝わらない</em> 。
+            週報・月報は「面倒な作業」じゃなく、<strong>自分のキャリアの証拠</strong>。
+          </p>
+        </div>
+      </div>
+
+      <p>
+        困ったとき、最初に味方になるのは自社の人だ。<br>
+        日頃から繋がっておかないと、いざというとき助けてもらえない。
+      </p>
+
+      <div class="takeaway">
+        <p class="takeaway-label">🎁 この章のおみやげ</p>
+        <p>
+          客先には誠実に、自社には定期的に。<br>
+          両方を大切にできる人が、SESで長く活躍する。
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Chapter 5 -->
+<article id="ch5" class="chapter chapter-5">
+  <div class="container">
+    <div class="chapter-head">
+      <span class="chapter-num">Chapter 05</span>
+      <h2>失敗は、最高の教材 🌧️→🌈</h2>
+      <p class="chapter-lead">失敗を恐れる人より、失敗を活かす人が伸びる。</p>
+    </div>
+
+    <div class="chapter-body">
+      <p>
+        新人は必ず失敗する。<br>
+        コードを壊す。要件を聞き間違える。会議で固まる。<br>
+        ──全部、通る道。
+      </p>
+
+      <p>
+        でも、 <strong>失敗にも「上手な失敗」と「下手な失敗」がある</strong> 。
+      </p>
+
+      <div class="compare">
+        <div class="compare-bad">
+          <p class="compare-label">❌ 下手な失敗</p>
+          <ul>
+            <li>気づいても黙っている</li>
+            <li>「自分のせいじゃない」と言い訳</li>
+            <li>同じ失敗を3回繰り返す</li>
+            <li>反省だけして、対策しない</li>
+          </ul>
+        </div>
+        <div class="compare-good">
+          <p class="compare-label">⭕ 上手な失敗</p>
+          <ul>
+            <li>気づいた瞬間に報告する</li>
+            <li>事実と推測を分けて伝える</li>
+            <li>「次にどうするか」までセット</li>
+            <li>仕組みで再発を防ぐ</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="sub-head">🚨 やらかしたときの正しい初動</h3>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <p class="step-title">深呼吸する</p>
+            <p>パニックのまま動くと、二次被害を生む。30秒だけ落ち着こう。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <p class="step-title">すぐ報告する（隠さない）</p>
+            <p>「〇〇をやってしまいました。今、影響を確認しています」── これだけでいい。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div>
+            <p class="step-title">事実を整理する</p>
+            <p>何を、いつ、どこで、どうしたか。 <em>推測と事実を混ぜない</em> 。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div>
+            <p class="step-title">対策を考える</p>
+            <p>自分を責めるより、 <strong>「次に同じことが起きない仕組み」</strong> を考える方が100倍価値がある。</p>
+          </div>
+        </div>
+      </div>
+
+      <blockquote class="quote big">
+        失敗を隠した瞬間、それは <em>事故</em> になる。<br>
+        失敗をすぐ報告した瞬間、それは <em>学び</em> になる。
+      </blockquote>
+
+      <div class="takeaway">
+        <p class="takeaway-label">🎁 この章のおみやげ</p>
+        <p>
+          失敗そのものは罪じゃない。<br>
+          <em>隠すこと</em> が、ただひとつの罪だ。
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Chapter 6 -->
+<article id="ch6" class="chapter chapter-6">
+  <div class="container">
+    <div class="chapter-head">
+      <span class="chapter-num">Chapter 06</span>
+      <h2>1年後に化ける人の習慣 ✨</h2>
+      <p class="chapter-lead">差がつくのは、毎日の「ほんの10分」だ。</p>
+    </div>
+
+    <div class="chapter-body">
+      <p>
+        同期で入社した10人。1年後、明らかに差がついている。<br>
+        この差はどこから来るのか？
+      </p>
+
+      <p>
+        答えは、 <strong>毎日の小さな習慣</strong> だ。
+      </p>
+
+      <h3 class="sub-head">🌟 化ける新人の5つの習慣</h3>
+
+      <div class="habit-list">
+        <div class="habit">
+          <div class="habit-emoji">📓</div>
+          <div>
+            <p class="habit-title">1日の終わりに3行日記</p>
+            <p>「今日学んだこと / 明日試すこと / 困っていること」を3行だけ書く。
+            <em>続けば1年で1000行の経験値</em> 。</p>
+          </div>
+        </div>
+        <div class="habit">
+          <div class="habit-emoji">🔁</div>
+          <div>
+            <p class="habit-title">同じことを2回聞かない仕組み</p>
+            <p>聞いたら必ずメモ。次に聞かれてもいいようにまとめておく。
+            <strong>メモは未来の自分への贈り物</strong> 。</p>
+          </div>
+        </div>
+        <div class="habit">
+          <div class="habit-emoji">🧭</div>
+          <div>
+            <p class="habit-title">朝イチに「今日のゴール」を決める</p>
+            <p>朝1分。「今日は〇〇まで終わらせる」と決めてから手を動かす。
+            それだけで集中力が変わる。</p>
+          </div>
+        </div>
+        <div class="habit">
+          <div class="habit-emoji">👀</div>
+          <div>
+            <p class="habit-title">先輩のコード・資料を盗み見る</p>
+            <p>うまい人のアウトプットには、 <em>言語化されていないコツ</em> が詰まっている。
+            積極的に観察しよう。</p>
+          </div>
+        </div>
+        <div class="habit">
+          <div class="habit-emoji">🤔</div>
+          <div>
+            <p class="habit-title">「なぜそうなっているのか？」を1日3回</p>
+            <p>言われた通りにやるだけじゃ伸びない。
+            「なぜこの設計？」「なぜこの順番？」と問い続ける癖が、エンジニアを作る。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-good">
+        <div class="callout-icon">🌱</div>
+        <div class="callout-body">
+          <p class="callout-title">1日1%の成長は、1年で37倍になる</p>
+          <p>
+            毎日たった1%、昨日より良くなろう。<br>
+            <code>1.01<sup>365</sup> ≈ 37.78</code> ──これが、複利の力だ。
+          </p>
+        </div>
+      </div>
+
+      <div class="takeaway">
+        <p class="takeaway-label">🎁 この章のおみやげ</p>
+        <p>
+          劇的な変化はいらない。<br>
+          <em>小さな習慣を、長く続ける人</em> が勝つ。
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Chapter 7 -->
+<article id="ch7" class="chapter chapter-7">
+  <div class="container">
+    <div class="chapter-head">
+      <span class="chapter-num">Chapter 07</span>
+      <h2>最後に、君へ 🕊️</h2>
+      <p class="chapter-lead">完璧じゃなくていい。でも、誠実でいてほしい。</p>
+    </div>
+
+    <div class="chapter-body">
+      <p>
+        ここまで読んでくれて、ありがとう。
+      </p>
+
+      <p>
+        最後に伝えたいことは、たったひとつだ。
+      </p>
+
+      <div class="final-message">
+        <p class="final-text">
+          <span class="final-line">技術は、いつでも追いつける。</span>
+          <span class="final-line">でも、 <em>信頼</em> は、一度失うと取り戻すのに時間がかかる。</span>
+          <span class="final-line">だから、完璧じゃなくていい。</span>
+          <span class="final-line"><strong>誠実でいてほしい。</strong></span>
+        </p>
+      </div>
+
+      <p>
+        わからないことは「わからない」と言う。<br>
+        失敗したらすぐ言う。<br>
+        助けてもらったら感謝を伝える。<br>
+        わからないままにしない。
+      </p>
+
+      <p>
+        それだけで、君は十分に <strong>「伸びる新人」</strong> だ。
+      </p>
+
+      <p>
+        1年後、3年後、5年後──<br>
+        この心得帖を読み返したとき、<br>
+        「あの頃の自分、ちゃんとやれてたな」と思えますように。
+      </p>
+
+      <p class="signature">
+        君のキャリアに、最高のスタートを。<br>
+        <span class="sig-leaf">🌱</span>
+      </p>
+
+      <div class="recap">
+        <h3>📌 7章の合言葉</h3>
+        <ul>
+          <li><span class="recap-num">01</span>わからないことは、わからないと言う</li>
+          <li><span class="recap-num">02</span>悪い報告ほど、最速で</li>
+          <li><span class="recap-num">03</span>15分悩んだら、聞く</li>
+          <li><span class="recap-num">04</span>自社にも客先にも、誠実に</li>
+          <li><span class="recap-num">05</span>失敗を隠さない、活かす</li>
+          <li><span class="recap-num">06</span>毎日1%、続ける人が勝つ</li>
+          <li><span class="recap-num">07</span>技術より先に、信頼を</li>
+        </ul>
+      </div>
+
+      <a href="#" class="back-top">↑ 最初に戻る</a>
+    </div>
+  </div>
+</article>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">新人エンジニア心得帖</p>
+    <p class="footer-sub">この心得帖が、君のキャリアの最初の一歩を支えますように 🌱</p>
+    <p class="footer-meta">
+      <a href="https://github.com/toshizo-app/new_comer_education">GitHub</a>
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
